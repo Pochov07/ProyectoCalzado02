@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_principal"
+            android:icon="@drawable/ic_menu_principal"
+            android:title="PANTALLA INICIAL"
+            >
+        </item>
+
+        <item
+            android:id="@+id/nav_listarCategoria"
+            android:icon="@drawable/ic_categoria"
+            android:title="CATEGORÍA" />
+
+        <item
+            android:id="@+id/nav_listarProducto"
+            android:icon="@drawable/ic_producto"
+            android:title="PRODUCTO" />
+
+        <item
+            android:id="@+id/nav_listarProveedor"
+            android:icon="@drawable/ic_proveedor"
+            android:title="PROVEEDOR" />
+
+        <item
+            android:id="@+id/nav_listarClientes"
+            android:icon="@drawable/ic_cliente"
+            android:title="CLIENTE" />
+
+
+
+        <item
+            android:id="@+id/nav_sucursal"
+            android:icon="@drawable/ic_sucursal"
+            android:title="SUCURSAL" />
+
+    </group>
+</menu>
