@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FAF5F5">
+
+            <TextView
+                android:id="@+id/filaTelefonoProveedor"
+                android:layout_width="156dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:drawablePadding="10dp"
+                android:ems="6"
+                android:text="Telefono"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/filaDireccionProveedor"
+                app:layout_constraintTop_toBottomOf="@+id/filaDireccionProveedor"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/filaRazonSocialProveedor"
+                android:layout_width="156dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="8dp"
+                android:drawablePadding="10dp"
+                android:ems="6"
+                android:text="Razon Social"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="@+id/filaRUCProveedor"
+                app:layout_constraintTop_toBottomOf="@+id/filaRUCProveedor" />
+
+
+            <TextView
+                android:id="@+id/filaDireccionProveedor"
+                android:layout_width="156dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="8dp"
+                android:drawablePadding="10dp"
+                android:ems="6"
+                android:text="Direccion"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="@+id/filaRazonSocialProveedor"
+                app:layout_constraintTop_toBottomOf="@+id/filaRazonSocialProveedor" />
+
+            <TextView
+                android:id="@+id/filaRUCProveedor"
+                android:layout_width="156dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:drawablePadding="10dp"
+                android:ems="6"
+                android:text="RUC"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/fila_btnEditarProveedor"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/fila_btnEditarProveedor"
+                android:layout_width="48dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="9dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/fila_btnEliminarProveedor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/ic_editar"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/fila_btnEliminarProveedor"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginBottom="28dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/fila_btnEditarProveedor"
+                app:srcCompat="@drawable/ic_eliminar"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:text="RUC: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:text="Razón Social:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:text="Dirección:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:text="Teléfono:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
