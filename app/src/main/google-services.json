@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700362288066",
+    "project_id": "proyectonoelia-eb318",
+    "storage_bucket": "proyectonoelia-eb318.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700362288066:android:bf7a877b34c29735fa445b",
+        "android_client_info": {
+          "package_name": "com.grupal.proyectoNoelia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700362288066-g9mivqcj2r0i6quii7tlugicirc994f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtsq9NX-S6eeFssudnQRHTS1ulTS4Frmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700362288066-g9mivqcj2r0i6quii7tlugicirc994f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
